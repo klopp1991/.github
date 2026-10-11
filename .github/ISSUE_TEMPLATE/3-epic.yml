@@ -1,0 +1,22 @@
+name: Vorhaben
+description: Grösseres Thema mit mehreren Teil-Funktionen. Das Team zerlegt es in Unter-Issues.
+title: ""
+labels: ["type:epic"]
+body:
+  - type: textarea
+    id: ziel
+    attributes:
+      label: Was ist das Ziel?
+      description: Was soll am Ende anders oder möglich sein?
+    validations:
+      required: true
+  - type: textarea
+    id: teile
+    attributes:
+      label: Welche Teile gehören dazu?
+      description: Optional. Stichworte genügen, das Team ergänzt und legt Unter-Issues an.
+  - type: textarea
+    id: nicht
+    attributes:
+      label: Was gehört bewusst nicht dazu?
+      description: Optional.

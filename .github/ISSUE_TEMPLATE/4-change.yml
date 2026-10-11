@@ -1,0 +1,16 @@
+name: Änderung
+description: Etwas Bestehendes soll anders oder besser werden, auch Optik und Umbau.
+title: ""
+labels: ["type:change"]
+body:
+  - type: textarea
+    id: was
+    attributes:
+      label: Was soll anders werden?
+    validations:
+      required: true
+  - type: textarea
+    id: warum
+    attributes:
+      label: Warum?
+      description: Was stört heute?

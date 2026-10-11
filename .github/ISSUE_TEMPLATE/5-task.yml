@@ -1,0 +1,11 @@
+name: Aufgabe
+description: Technische Arbeit ohne sichtbare Wirkung, zum Beispiel Aufräumen, Updates, Doku, Tests.
+title: ""
+labels: ["type:task"]
+body:
+  - type: textarea
+    id: was
+    attributes:
+      label: Was ist zu tun?
+    validations:
+      required: true

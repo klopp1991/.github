@@ -1,0 +1,36 @@
+name: Fehler
+description: Etwas funktioniert nicht wie gedacht, auch Störungen und Sicherheitslücken.
+title: ""
+labels: ["type:bug"]
+body:
+  - type: textarea
+    id: was
+    attributes:
+      label: Was ist passiert?
+      description: Kurz in eigenen Worten.
+    validations:
+      required: true
+  - type: textarea
+    id: erwartet
+    attributes:
+      label: Was hast Du erwartet?
+  - type: input
+    id: wo
+    attributes:
+      label: Wo?
+      description: Seite oder Funktion, Handy oder PC.
+  - type: dropdown
+    id: dringend
+    attributes:
+      label: Dringend?
+      description: "Ja = Störung: Das Team setzt prio:1 und behebt es sofort."
+      options:
+        - Nein
+        - Ja, etwas Wichtiges ist kaputt
+    validations:
+      required: true
+  - type: textarea
+    id: bild
+    attributes:
+      label: Screenshot oder Fehlermeldung
+      description: Optional. Bild hier hineinziehen.

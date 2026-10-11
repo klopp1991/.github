@@ -1,0 +1,21 @@
+name: Neue Funktion
+description: Etwas Neues soll dazukommen.
+title: ""
+labels: ["type:feature"]
+body:
+  - type: textarea
+    id: was
+    attributes:
+      label: Was möchtest Du?
+    validations:
+      required: true
+  - type: textarea
+    id: wozu
+    attributes:
+      label: Wozu brauchst Du es?
+      description: Hilft dem Team, die beste Lösung zu finden.
+  - type: textarea
+    id: idee
+    attributes:
+      label: Wie stellst Du es Dir vor?
+      description: Optional. Skizze, Beispiel oder Link.
