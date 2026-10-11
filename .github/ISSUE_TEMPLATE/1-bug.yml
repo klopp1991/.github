@@ -1,4 +1,4 @@
-name: Fehler
+name: Bug
 description: Etwas funktioniert nicht wie gedacht, auch Störungen und Sicherheitslücken.
 title: ""
 labels: ["type:bug"]

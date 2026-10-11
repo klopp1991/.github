@@ -1,4 +1,4 @@
-name: Vorhaben
+name: Epic
 description: Grösseres Thema mit mehreren Teil-Funktionen. Das Team zerlegt es in Unter-Issues.
 title: ""
 labels: ["type:epic"]

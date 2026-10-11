@@ -1,4 +1,4 @@
-name: Aufgabe
+name: Task
 description: Technische Arbeit ohne sichtbare Wirkung, zum Beispiel Aufräumen, Updates, Doku, Tests.
 title: ""
 labels: ["type:task"]
