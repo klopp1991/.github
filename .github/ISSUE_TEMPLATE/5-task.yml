@@ -9,3 +9,8 @@ body:
       label: Was ist zu tun?
     validations:
       required: true
+  - type: textarea
+    id: ergebnis
+    attributes:
+      label: Woran erkennt man, dass es fertig ist?
+      description: "Optional. Z. B. betroffene Doku-Seite ist aktualisiert, ein bestimmter Testlauf ist erfolgreich, oder eine Abhängigkeit ist auf eine neue Version aktualisiert."
