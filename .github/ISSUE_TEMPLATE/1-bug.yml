@@ -19,6 +19,16 @@ body:
     attributes:
       label: Wo?
       description: Seite oder Funktion, Handy oder PC.
+  - type: textarea
+    id: schritte
+    attributes:
+      label: Wie kann man es nachstellen?
+      description: "Optional. Schritt für Schritt, z. B. 1. ... 2. ... 3. ... Wenn es keine festen Schritte gibt (z. B. bei Fehlern im Hintergrund), kurz beschreiben, wann es auftritt."
+  - type: input
+    id: umgebung
+    attributes:
+      label: Umgebung/Version?
+      description: Optional. Browser und Version, Gerät, oder betroffenes System/Version.
   - type: dropdown
     id: dringend
     attributes:
