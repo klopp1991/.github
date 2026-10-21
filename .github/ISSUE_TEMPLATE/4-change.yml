@@ -14,3 +14,13 @@ body:
     attributes:
       label: Warum?
       description: Was stört heute?
+  - type: textarea
+    id: ziel
+    attributes:
+      label: Beispiel oder Zielzustand?
+      description: Optional. Z. B. wie es aussehen oder funktionieren soll, wenn es fertig ist.
+  - type: textarea
+    id: unveraendert
+    attributes:
+      label: Was soll gleich bleiben?
+      description: Optional. Was auf keinen Fall verändert werden soll.
