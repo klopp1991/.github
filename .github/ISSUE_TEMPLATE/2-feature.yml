@@ -15,6 +15,11 @@ body:
       label: Wozu brauchst Du es?
       description: Hilft dem Team, die beste Lösung zu finden.
   - type: textarea
+    id: beispiel
+    attributes:
+      label: Beispiel oder Zielzustand?
+      description: Optional. Z. B. eine Situation, in der Du es nutzen würdest, oder wie es aussehen soll, wenn es fertig ist.
+  - type: textarea
     id: idee
     attributes:
       label: Wie stellst Du es Dir vor?
