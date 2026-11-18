@@ -40,7 +40,3 @@ Der Änderungsverlauf listet alle nennenswerten Änderungen: [CHANGELOG.md](CHAN
 - Die Vorlagen sind YAML-Dateien im GitHub-Format; Änderungen wirken in allen Repos von klopp1991.
 - Hinweise zur Bearbeitung dieses Repos stehen in [AGENTS.md](AGENTS.md).
 - Gebaut oder getestet wird hier nicht: Die Vorlagen wirken unmittelbar über GitHub.
-
-## Lizenz
-
-Apache-2.0 – siehe [LICENSE](LICENSE) und [NOTICE](NOTICE). Name und Logo sind nicht mitlizenziert.

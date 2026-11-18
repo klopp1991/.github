@@ -5,7 +5,7 @@ Alle nennenswerten Änderungen. Versionen nach CalVer `JJJJ.MMTT.HH`.
 ## Unveröffentlicht
 
 ### Neu
-- Lizenz Apache-2.0, NOTICE und dieser Änderungsverlauf
+- Dieser Änderungsverlauf listet alle nennenswerten Änderungen in Anwendersprache.
 
 ### Verbessert
 - README übersichtlicher gegliedert
